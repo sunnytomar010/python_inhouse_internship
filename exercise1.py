@@ -54,3 +54,52 @@
 #         break
 #     else:
 #         print("Invalid choice. Please select 1-5.")
+#
+#Mark analyser
+# import math
+
+# numbers = [70, 74, 78, 76, 89]
+
+# def minimum():
+#     print("Minimum:",min(numbers))
+
+# def maximum():
+#     print("Maximum:",max(numbers))
+
+# def average():
+#     avg = math.fsum(numbers)/len(numbers)
+#     print("Average:",avg)
+
+# def grade():
+#     percent = math.fsum(numbers)/len(numbers)
+
+#     if percent >= 90:
+#         print("Grade: A")
+#     elif percent >= 80:
+#         print("Grade: B")
+#     elif percent >= 70:
+#         print("Grade: C")
+#     elif percent >= 60:
+#         print("Grade: D")
+#     else:
+#         print("Grade: F")
+
+# minimum()
+# maximum()
+# average()
+# grade()
+
+
+#top N Student
+# students = [
+#     {"name": "Sunny", "marks": 85},
+#     {"name": "Amit", "marks": 92},
+#     {"name": "Riya", "marks": 78},
+#     {"name": "Neha", "marks": 95},
+#     {"name": "Rahul", "marks": 88}
+# ]
+# n = int(input("Enter n: "))
+# students.sort(key=lambda x: x["marks"], reverse=True)
+# print("Top", n, "students:")
+# for i in range(n):
+#     print(students[i]["name"], students[i]["marks"])
